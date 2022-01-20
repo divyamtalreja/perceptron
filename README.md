@@ -4,6 +4,6 @@
 
  # command used -
 
-'''bash
-git add . && git commit -m "docstring updated " & git push origin main
-'''
+```bash
+git add . && git commit -m "docstring updated " && git push origin main
+```
