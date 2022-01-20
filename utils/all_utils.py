@@ -13,10 +13,19 @@ def prepare_data(df):
 
   return X, y
 def save_model(model, filename):
-   model_dir = "models"
-   os.makedirs(model_dir, exist_ok=True) # ONLY CREATE IF MODEL_DIR DOESN"T EXISTS
-   filePath = os.path.join(model_dir, filename) # model/filename
-   joblib.dump(model, filePath) 
+  
+  """this  is used to save the model
+
+  Args:
+      model ([model]): [model variable ]
+      filename ([txt]): [name of model in which you want to save]
+  Returns:
+       nothing    
+  """
+  model_dir = "models"
+  os.makedirs(model_dir, exist_ok=True) # ONLY CREATE IF MODEL_DIR DOESN"T EXISTS
+  filePath = os.path.join(model_dir, filename) # model/filename
+  joblib.dump(model, filePath) 
     
 def save_plot(df, file_name, model):
   def _create_base_plot(df):
