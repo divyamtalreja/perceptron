@@ -31,3 +31,11 @@ git add . && git commit -m "docstring updated " && git push origin main
     figure.set_size_inches(10, 8)
 ```
 
+# table
+
+x |y | z
+-|-|-
+0|0|0
+0|1|0
+1|0|0
+1|1|1
