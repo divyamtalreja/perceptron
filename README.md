@@ -39,3 +39,12 @@ x |y | z
 0|1|0
 1|0|0
 1|1|1
+
+
+###
+* point1
+* point2
+* point 3
+
+1. point1
+2. point2
